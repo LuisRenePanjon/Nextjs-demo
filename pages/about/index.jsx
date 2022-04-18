@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import { NavBar } from '../components/commons/NavBar'
+import styles from '../../styles/Home.module.css'
+import { NavBar } from '../../components/commons/NavBar'
 export default function aboutPage() {
     return (
         <div className={styles.container}>

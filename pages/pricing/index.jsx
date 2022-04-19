@@ -1,8 +1,8 @@
-import Link from "next/link";
-import { MainLayout } from "../../components/layouts/MainLayout";
+import Link from "next/link"
+import { MainLayout } from "../../components/layouts/MainLayout"
 import styles from '../../styles/Home.module.css'
 
-export default function ContactPage() {
+export default function PricingPage() {
     return (
         <MainLayout>
             <h1 className={styles.title}>
@@ -11,8 +11,10 @@ export default function ContactPage() {
 
             <p className={styles.description}>
                 Get started by editing{' '}
-                <code className={styles.code}>pages/contact.jsx</code>
+                <code className={styles.code}>pages/pricing.jsx</code>
             </p>
         </MainLayout>
     )
 }
+
+

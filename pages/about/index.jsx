@@ -1,7 +1,8 @@
 import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
 import { MainLayout } from '../../components/layouts/MainLayout'
 import { DarkLayout } from '../../components/layouts/DarkLayout'
+
+import styles from '../../styles/Home.module.css'
 export default function AboutPage() {
     return (
         <>
